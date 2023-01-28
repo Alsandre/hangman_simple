@@ -1,0 +1,17 @@
+#floor
+#hang-bodzi
+
+#hang2
+#hang3
+
+#hang4
+
+#leg
+#leg1
+
+#body
+
+#hand
+#hand1
+
+#head

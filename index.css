@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#game-container {
+  border: 3px solid #ccc;
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
+  margin: 30px auto;
+  position: relative;
+}
+
+#play-button {
+  border: 1px solid green;
+  padding: 0.3rem 1rem;
+  margin: 100px auto;
+  font-size: 3rem;
+  border-radius: 10px;
+  display: block;
+}
+
+#keyboard {
+  border: 1px solid green;
+  margin: auto;
+  margin-top: 220px;
+  width: 220px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  display: none;
+  position: absolute;
+  bottom: 20px;
+  left: 140px;
+}
+#hidden-word {
+  height: 16px;
+  /* display: inline-block; */
+  position: absolute;
+  display: none;
+}
+
+#hang-bodzi {
+  width: 10px;
+  height: 150px;
+  margin: 50px auto;
+  position: relative;
+  right: 25px;
+  background-color: grey;
+}
+
+#hang-bodzi span {
+    display: none;
+}
+.bodzi {
+    display: none;
+}
+#floor {
+  width: 150px;
+  height: 10px;
+  position: absolute;
+  left: -40px;
+  bottom: 0;
+  background-color: rgb(48, 11, 11);
+  /* display: none; */
+}
+
+#hang2 {
+  width: 10px;
+  height: 100px;
+  transform: rotate(90deg);
+  position: absolute;
+  left: 35px;
+  bottom: 90px;
+  background-color: grey;
+  /* display: none; */
+}
+
+#hang3 {
+  width: 10px;
+  height: 60px;
+  position: absolute;
+  transform: rotate(60deg);
+  left: 23px;
+  bottom: 95px;
+  background-color: grey;
+  /* display: none; */
+}
+#hang4 {
+  width: 1px;
+  height: 25px;
+  position: absolute;
+  left: 75px;
+  bottom: 110px;
+  background-color: black;
+  /* display: none; */
+}
+
+#leg {
+  width: 4px;
+  height: 30px;
+  background-color: black;
+  position: absolute;
+  left: 81px;
+  bottom: 40px;
+  transform: rotate(-8deg);
+  /* display: none; */
+}
+#leg1 {
+  width: 4px;
+  height: 30px;
+  background-color: black;
+  position: absolute;
+  left: 69px;
+  bottom: 40px;
+  transform: rotate(6deg);
+  /* display: none; */
+}
+
+#body {
+  width: 15px;
+  height: 30px;
+  border-radius: 3px;
+  position: absolute;
+  left: 69px;
+  bottom: 70px;
+  background-color: black;
+  /* display: none; */
+}
+
+#hand {
+  width: 2px;
+  height: 21px;
+  position: absolute;
+  left: 66px;
+  bottom: 77px;
+  transform: rotate(10deg);
+  background-color: black;
+  /* display: none; */
+}
+#hand1 {
+  width: 2px;
+  height: 21px;
+  position: absolute;
+  left: 85px;
+  bottom: 77px;
+  transform: rotate(-10deg);
+  background-color: black;
+  /* display: none; */
+}
+
+#head {
+  width: 10px;
+  height: 10px;
+  border-radius: 45%;
+  position: absolute;
+  left: 70px;
+  bottom: 101px;
+  transform: rotate(-10deg);
+  background-color: black;
+  /* display: none; */
+}
