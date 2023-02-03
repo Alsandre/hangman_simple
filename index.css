@@ -6,11 +6,18 @@
 
 #game-container {
   border: 3px solid #ccc;
-  width: 500px;
-  height: 400px;
+  width: 800px;
+  height: 600px;
   border-radius: 10px;
   margin: 30px auto;
   position: relative;
+  background: linear-gradient(to bottom, transparent 55%, rgba(240, 180, 180, 0.336) 95%);
+}
+#game-container.game-over {
+  background: linear-gradient(to bottom,  rgb(185, 78, 78) 15%, transparent);
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 70px;
 }
 
 #play-button {
@@ -26,7 +33,7 @@
   border: 1px solid green;
   margin: auto;
   margin-top: 220px;
-  width: 220px;
+  width: 470px;
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -36,13 +43,31 @@
   display: none;
   position: absolute;
   bottom: 20px;
-  left: 140px;
+  left: 165px;
 }
 #hidden-word {
-  height: 16px;
+  /* height: 16px; */
   /* display: inline-block; */
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 45px;
+  color: rgb(32, 134, 11);
+  font-weight: bold;
   position: absolute;
   display: none;
+  justify-content: center;
+  align-items: center;
+}
+#hidden-word h2 {
+  /* height: 16px; */
+  /* display: inline-block; */
+  box-sizing: border-box;
+  font-size: 45px;
+  color: rgb(32, 134, 11);
+  font-weight: bold;
+  position: absolute;
+  /* display: none; */
+  border: 1px solid black;
 }
 
 #hang-bodzi {
